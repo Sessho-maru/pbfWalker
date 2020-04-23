@@ -14,7 +14,7 @@ If you want to convert many `.pbf`s like a whole bookmark of some lectures</br>
 I recommend make a __*folder*__ that contains each lecture's `.pbf` files, like</br>
 ```
  folder
-    ├──lectrue 1
+    ├──lecture 1
     │    ├──00.introduction
     │    │   ├──... .pbf
     │    │   ├──... .pbf
@@ -31,7 +31,7 @@ I recommend make a __*folder*__ that contains each lecture's `.pbf` files, like<
     │    │   ├──... .pbf
     │        ...
     │    ...
-    ├──lectrue 2
+    ├──lecture 2
     │    ├──00.introduction
     │    │   ├──... .pbf
     │    │   ├──... .pbf
