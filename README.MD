@@ -2,7 +2,7 @@
 - `.pbf` is a file extension DAUM PotPlayer produces as its video bookmarks
 - This tool converts `.pbf` file into an organized text file
 - You can easily search the part of video where you want to see by parsing `.pbf` files with this tool
-<img src="https://raw.githubusercontent.com/Sessho-maru/pbfWalker/master/example.gif" />
+<img src="https://raw.githubusercontent.com/Sessho-maru/pbfWalker/master/test/01.example.gif" />
 
 ### Requirement
 - All you nees is python
