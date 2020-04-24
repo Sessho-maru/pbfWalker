@@ -54,7 +54,7 @@ then pass __*folder*__ directory to this tool
 
 ### About this tool
 This tool sorts all the files and folders in the given directory using the first occurrence integer as a key from its name</br>
-Because, normally contents of a lecture are sorted by numbering and every `.pbf` file is names after its video file</br>
+Because, normally contents of a lecture are sorted by numbering and every `.pbf` file is named after its video file</br>
 so, if any contents you are going to convert hasn't been numbered, You should give a number, like</br>
 ```
 01. ... .pbf
