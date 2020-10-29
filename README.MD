@@ -6,12 +6,12 @@
 
 ### Requirement
 - All you need is python
-- Turn on `Store bookmarks into .pbf files instead of Registry/INI(책갈피를 동영싱과 같은 폴더에 저장)` if you haven't (this option makes a .pbf file right under video file what .pbf marks for)
+- Turn on `Store bookmarks into .pbf files instead of Registry/INI(책갈피를 동영싱과 같은 폴더에 저장)` if you haven't </br>(this option makes a .pbf file right under video file what a .pbf mark for)
 ### How to use
 Give this tool a folder direction where your desired video lives</br>
 then this tool will parse every `.pbf` file and produce one text file</br></br>
 This tool may be useful when you're wanting to reference lecture videos quickly by mapping the name of specific subject with timestamp when it is started</br>
 
 ### About this tool
-Considering lecture videos has its order and usually specifies its order by numbering
+Considering lecture videos has its order and usually specifies its order by numbering</br>
 So, this tool exptects all the names of video file and folder have already been numbered
