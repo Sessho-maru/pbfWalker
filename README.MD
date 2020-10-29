@@ -1,71 +1,17 @@
 # pbfWalker
-- `.pbf` is a file extension DAUM PotPlayer produces as its video bookmarks
-- This tool converts `.pbf` file into an organized text file
-- You can easily search the part of video where you want to see by parsing `.pbf` files with this tool
+- DAUMPotPlayer produces the `.pbf` file for bookmarking videos
+- This tool parses .pbf file then converts its body into a text file contains pairs of bookmark name, start time
+- Once you marked the position where you would want to see quickly again, you can easily find that by using this tool
 <img src="https://raw.githubusercontent.com/Sessho-maru/pbfWalker/master/test/01.example.gif" />
 
 ### Requirement
-- All you nees is python
-- If you haven't, Just turn on `Store bookmarks into .pbf files instead of Registry/INI(책갈피를 동영싱과 같은 폴더에 저장)` option in Playback setting menu
+- All you need is python
+- Turn on `Store bookmarks into .pbf files instead of Registry/INI(책갈피를 동영싱과 같은 폴더에 저장)` if you haven't (this option makes a .pbf file right under video file what .pbf marks for)
 ### How to use
-Give it a directory where your sources are, and then this tool parses all the `.pbf` files</br>
-After, this tool will convert its every timestamp and markername into text file</br></br>
-If you want to convert many `.pbf`s like a whole bookmark of some lectures</br>
-I recommend make a __*folder*__ that contains each lecture's `.pbf` files, like</br>
-```
- folder
-    ├──lecture 1
-    │    ├──00.introduction
-    │    │   ├──... .pbf
-    │    │   ├──... .pbf
-    │    │   ├──... .pbf
-    │    │   ...
-    │    ├──01.blah
-    │    │   ├──... .pbf
-    │    │   ├──... .pbf
-    │    │   ├──... .pbf
-    │    │   ...
-    │    ├──02.blahblah
-    │    │   ├──... .pbf
-    │    │   ├──... .pbf
-    │    │   ├──... .pbf
-    │        ...
-    │    ...
-    ├──lecture 2
-    │    ├──00.introduction
-    │    │   ├──... .pbf
-    │    │   ├──... .pbf
-    │    │   ├──... .pbf
-    │    │   ...
-    │    ├──01.blah
-    │    │   ├──... .pbf
-    │    │   ├──... .pbf
-    │    │   ├──... .pbf
-    │    │   ...
-    │    ├──02.blahblah
-    │    │   ├──... .pbf
-    │    │   ├──... .pbf
-    │    │   ├──... .pbf
-    │        ...
-    │    ...
-
-```
-then pass __*folder*__ directory to this tool
+Give this tool a folder direction where your desired video lives</br>
+then this tool will parse every `.pbf` file and produce one text file</br></br>
+This tool may be useful when you're wanting to reference lecture videos quickly by mapping the name of specific subject with timestamp when it is started</br>
 
 ### About this tool
-This tool sorts all the files and folders in the given directory using the first occurrence integer as a key from its name</br>
-Because, normally contents of a lecture are sorted by numbering and every `.pbf` file is named after its video file</br>
-so, if any contents you are going to convert hasn't been numbered, You should give a number, like</br>
-```
-01. ... .pbf
-02. ... .pbf
-03. ... .pbf
-...
-or
-#1. ... .pbf
-#2. ... .pbf
-#3. ... .pbf
-...
-```
-</br>
-This tool traverses every subfolder in DFS manner
+Considering lecture videos has its order and usually specifies its order by numbering
+So, this tool exptects all the names of video file and folder have already been numbered
