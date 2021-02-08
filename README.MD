@@ -1,7 +1,7 @@
 # pbfWalker
 - DAUMPotPlayer produces the `.pbf` file for bookmarking videos
 - This tool parses `.pbf` file then converts its body into a text file contains pairs of bookmark name, start time
-- Once you marked the position where you would want to see again quickly, you can easily find that by using this tool
+- Once you marked the position where you would want to watch again quickly, you can easily find that by using this tool
 <img src="https://raw.githubusercontent.com/Sessho-maru/pbfWalker/master/test/01.example.gif" />
 
 ### Requirement
