@@ -10,7 +10,7 @@
 ### How to use
 Give this tool a folder directory where your desired videos live</br>
 then this tool will parse every `.pbf` file and produce one text file</br></br>
-This tool may be useful when you're wanting to reference lecture videos quickly by mapping the name of specific subject with timestamp when it starts</br>
+This tool may useful when you're wanting to reference lecture videos quickly by mapping the name of specific subject with timestamp when it starts</br>
 
 ### About this tool
 Considering lecture videos has its order and usually specifies that by numbering</br>
