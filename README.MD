@@ -6,7 +6,7 @@
 
 ### Requirement
 - All you need is python
-- Turn on `Store bookmarks into .pbf files instead of Registry/INI(책갈피를 동영상과 같은 폴더에 저장)` if you haven't </br>(this option makes a `.pbf` file right under the video file what a `.pbf` marks for)
+- Turn on `Store bookmarks into .pbf files instead of Registry/INI(책갈피를 동영상과 같은 폴더에 저장)` if you haven't </br>(this option makes the `.pbf` file right under a video file which the `.pbf` marks for)
 ### How to use
 Give this tool a folder directory where your desired videos live</br>
 then this tool will parse every `.pbf` file and produce one text file</br></br>
